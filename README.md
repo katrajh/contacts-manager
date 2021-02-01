@@ -1,6 +1,6 @@
 # contacts-manager
 
-# sWeb app for managing user contacts
+# Web app for managing user contacts
 
 OVERVIEW
 
