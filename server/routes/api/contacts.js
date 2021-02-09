@@ -9,6 +9,12 @@ router.get('/', async (req, res) => {
     res.send(await contacts.find({}).toArray());    // returns all
 });
 
+// GET contact by id
+router.get('/:id', async (req, res) => {
+    const contacts = await loadContactsCollection();
+    res.send(await contacts.findOne({_id: new mongodb.ObjectID(req.params.id)}));    // returns one
+});
+
 // ADD contact
 router.post('/', async (req, res) => {
     const contacts = await loadContactsCollection();
