@@ -24,3 +24,10 @@ should have some basic information like first name, last name, phone number etc.
         1. Registration
         2. Login
         3. Contact list
+
+
+
+Commands (terminal):
+npm start
+npm run dev
+npm run serve
