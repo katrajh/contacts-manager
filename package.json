@@ -2,30 +2,35 @@
   "name": "contacts-manager",
   "version": "1.0.0",
   "description": "Full stack vue and express app",
-  "main": "index.js",
-  "scripts": {
-    "start": "node server/index.js",
-    "dev": "nodemon server/index.js"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/katrajh/contacts-manager.git"
-  },
   "author": "K Rajh",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/katrajh/contacts-manager/issues"
+  "scripts": {
+    "dev": "nodemon server/index.js",
+    "start": "node server/index.js"
   },
-  "homepage": "https://github.com/katrajh/contacts-manager#readme",
+  "main": "index.js",
   "dependencies": {
     "body-parser": "^1.19.0",
     "cors": "^2.8.5",
     "express": "^4.17.1",
-    "mongodb": "^3.6.4"
+    "mongodb": "^3.6.4",
+    "vuetify": "^2.4.0"
   },
   "devDependencies": {
     "@vue/cli": "^4.5.11",
     "nodemon": "^2.0.7",
-    "vue": "^3.0.5"
+    "sass": "^1.32.0",
+    "sass-loader": "^10.0.0",
+    "vue": "^3.0.5",
+    "vue-cli-plugin-vuetify": "~2.1.0",
+    "vuetify-loader": "^1.7.0"
+  },
+  "bugs": {
+    "url": "https://github.com/katrajh/contacts-manager/issues"
+  },
+  "homepage": "https://github.com/katrajh/contacts-manager#readme",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/katrajh/contacts-manager.git"
   }
 }
